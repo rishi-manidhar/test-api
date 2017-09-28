@@ -7,6 +7,6 @@ spring:
       server:
         git:
           strict-host-key-checking: false
-          uri: https://ghe.coxautoinc.com/EPD-DevProductivity/test-api
+          uri: https://github.com/rishi-manidhar/test-api
           clone-on-start: true
           basedir: ${HOME}/Desktop/cloned
