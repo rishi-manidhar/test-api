@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          strict-host-key-checking: false
+          uri: https://ghe.coxautoinc.com/EPD-DevProductivity/test-api
+          clone-on-start: true
+          basedir: ${HOME}/Desktop/cloned
